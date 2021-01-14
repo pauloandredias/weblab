@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aerus | ua10a | Manutencao de Usuarios</title>
+        <link rel="stylesheet" href="..\css\aerus.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Manutencao de Usuarios</h1>
+            </div>
+            <div id="main">
+                <form>
+                    <div>
+                        <label>Opcao</label><br>
+                        <input type="radio" name="tx_opc" value "Inclui" checked>Inclui
+                        <input type="radio" name="tx_opc" value "Altera">Altera
+                        <input type="radio" name="tx_opc" value "Exclui">Exclui
+                    </div>
+                    <div>
+                        <label>Codigo do Usuario</label><br>
+                        <input type="text" name="cd_usr">
+                    </div>
+                    <div>
+                        <label>Nome do Usuario</label><br>
+                        <input type="text" name="nm_usr">
+                    </div>
+                    <div>
+                        <label>Data Limite</label><br>
+                        <input type="date" name="dt_lim">
+                    </div>
+                    <div>
+                        <label>Providencia Dt Limite</label><br>
+                        <input type="radio" name="tx_prv" value "Bloquear">Bloquear
+                        <input type="radio" name="tx_prv" value "Trocar" checked>Trocar Senha
+                    </div>                    
+                </form>
+
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><button type="submit">Ajuda</button></li>
+                    <li><button type="submit">Sai</button></li>
+                    <li><button type="submit">Seleciona</button></li>
+                    <li><button type="submit">Cancela</button></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

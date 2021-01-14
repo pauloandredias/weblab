@@ -1,0 +1,53 @@
+body{
+    color:#fff;
+    font-family: arial;
+}
+
+#container{
+    background: #666;
+    widows: 960px;
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#header{
+    background: #333;
+    text-align:center;
+}
+
+#main{
+    float:initial;
+    width:60%;
+}
+
+#nav{
+    background: #333;
+    height: 40px;
+}
+
+#nav ul{
+    padding: 0;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+#nav li{
+    list-style: none;
+    float:left;
+    padding-right: 20px;
+}
+
+input, text{
+    widows: 100%;
+    padding:5px;
+    margin-bottom: 15px;
+}
+
+label{
+    padding-bottom: 10px;
+}
+
+
+
+
